@@ -21,7 +21,7 @@ class Auto:
 autot = []
 for i in range(1,11):
     huippunopeus = random.randint(100,200)
-    autot.append(Auto(f'ABC-{i}', huippunopeus))
+    autot.append(Auto(f'ABC-{i}', huippunopeus ))
 
 tunti = 0
 kilpailu_käynnissä = True
