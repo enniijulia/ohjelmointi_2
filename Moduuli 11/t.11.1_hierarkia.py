@@ -9,10 +9,8 @@ class Lehti(Julkaisu):
     def __init__(self, nimi, päätoimittaja):
         super().__init__(nimi)
         self.päätoimittaja = päätoimittaja
-
-        def kulje(self, tunnit):
-            self.kuljettu_matka += self.tämänhetkinen_nopeus * tunnit
         print(f"Päätoimittaja: {self.päätoimittaja}")
+
 
 class Kirja(Julkaisu):
     def __init__(self,nimi, kirjoittaja, sivumäärä):

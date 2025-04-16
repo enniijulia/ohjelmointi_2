@@ -19,4 +19,4 @@ def get_weather(city_name, api_key):
 if __name__ == "__main__":
     city = input("Anna paikkakunnan nimi: ")
     api_key = "d40e23b2411c9888dc64a63524a4a713"
-    get_weather(city, api_key)
+    get_   weather(city, api_key)
